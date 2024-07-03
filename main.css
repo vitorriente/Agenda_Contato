@@ -1,0 +1,88 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(IMAGENS/fundo_star.png);
+    background-size: cover;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: transparent ;
+    border: 2px solid rgba(28, 28, 28, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(172, 166, 166, 0.2);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+form {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+button {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(132, 132, 3, 0.962)
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: white;
+    color:black;
+}
+tr {
+    background-color: white;
+}
+tr:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(170, 166, 166, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+p {
+    color: white;
+}
+
+
+
+
+
